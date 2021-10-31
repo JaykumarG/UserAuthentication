@@ -2,8 +2,6 @@ from django.shortcuts import redirect, render
 from django.contrib.auth.models import User
 from django.contrib.auth import logout, authenticate, login
 
-# Create your views here.
-#userid and password for test is user = jaykumar password = Soumya@123#
 
 
 def index(request):
